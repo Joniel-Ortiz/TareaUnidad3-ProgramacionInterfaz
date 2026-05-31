@@ -1,0 +1,210 @@
+JFDML JFormDesigner: "8.3" encoding: "UTF-8"
+
+new FormModel {
+	"i18n.bundleName": "es"
+	"i18n.autoExternalize": true
+	"i18n.keyPrefix": "idioma"
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {comp panel1::l:::x}"
+		} ) {
+			name: "this"
+			"$locationPolicy": 1
+			"resizable": false
+			"defaultCloseOperation": 0
+			"title": "GESTOR DE CONTACTOS"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {par l {seq l {space :12:12:p, par l {seq {par t {comp btnAmigo:::p::p, comp btnTrabajo:::p:58:p}, space u:::p, par l {comp lblAmigo:::p::p, seq l {par l {comp lblTrabajo:::p::p, seq l {space :p:29:p, comp lblFavorito:::p::p}}, space :p:32:p, comp chkFavorito:::p::p}}}, seq l {par l {comp lblTelefono::l:p::p, comp lblEmail::l:p::p, comp lblNombre::l:p::p}, space :p:12:p, par l {comp cmpNombre:::p:255:p, par l:::p {comp cmpEmail::::255:x, comp cmpTelefono:::::x}}}, seq l {comp btnFamilia:::p::p, space u:::p, comp lblFamilia:::p::p}, comp lblCategoria::l:p::p}}, seq l {space :::p, comp btnRegresar:::p::p, space :::p, comp lblNuevoContacto:::p::p}}, space :::x}, seq t {space :::x, comp btnGuardar:::p:223:p, space :p:75:p}}"
+				"$verticalGroup": "par l {seq l {space :::p, par l {comp btnRegresar:::p:32:p, comp lblNuevoContacto:::::x}, par l {seq {space :p:23:p, comp cmpNombre:::::x}, seq l {space u:::p, comp lblNombre:::p::p}}, space s:::p, par l {comp lblTelefono:::p::p, comp cmpTelefono:::p:32:p}, space s:::p, par l {comp lblEmail:::p::p, comp cmpEmail:::p:32:p}, space u:::p, comp lblCategoria:::p:34:p, par l {seq {space :p:14:p, comp lblFamilia:::::x}, seq l {space :::p, comp btnFamilia:::p::p}}, space :::p, par l {comp btnAmigo:::p::p, comp lblAmigo:::::x}, space :::p, par l {seq {par l {seq {comp lblTrabajo::::63:x, space :p:12:p, comp lblFavorito:::p::p}, seq {space :0:63:x, comp chkFavorito:::p::p}}, space u:::p, comp btnGuardar:::p::p, space :::p}, seq {comp btnTrabajo:::p::p, space :0:0:x}}}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 19, 41, 61, 255 )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnRegresar"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/atras(1).png" )
+					"background": new java.awt.Color( 78, 80, 82, 0 )
+					"contentAreaFilled": false
+					"borderPainted": false
+					"focusPainted": false
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblNuevoContacto"
+					"text": new FormMessage( null, "idioma.lblNuevoContacto.text_2" )
+					"font": &Font0 new java.awt.Font( "Segoe UI Black", 2, 24 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblNombre"
+					"text": new FormMessage( null, "idioma.lblNombre.text" )
+					"font": new java.awt.Font( "Comic Sans MS", 0, 24 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "cmpNombre"
+					"background": new java.awt.Color( 36, 123, 160, 255 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Comic Sans MS", 0, 18 )
+					"$client.FlatLaf.style": "arc: 20"
+					"$client.JTextField.placeholderText": "Introduce el nombre..."
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "cmpTelefono"
+					"background": new java.awt.Color( 36, 123, 160, 255 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Comic Sans MS", 0, 18 )
+					"$client.FlatLaf.style": "arc: 20"
+					"$client.JTextField.placeholderText": "Introduce el telefono..."
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblTelefono"
+					"text": new FormMessage( null, "idioma.lblTelefono.text" )
+					"font": new java.awt.Font( "Comic Sans MS", 0, 24 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "cmpEmail"
+					"background": new java.awt.Color( 36, 123, 160, 255 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Comic Sans MS", 0, 18 )
+					"$client.FlatLaf.style": "arc: 20"
+					"$client.JTextField.placeholderText": "Introduce el email..."
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblEmail"
+					"text": new FormMessage( null, "idioma.lblEmail.text" )
+					"font": new java.awt.Font( "Comic Sans MS", 0, 24 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblCategoria"
+					"text": new FormMessage( null, "idioma.lblCategoria.text_2" )
+					"font": #Font0
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "btnFamilia"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/familia(3)(1).png" )
+					"background": new java.awt.Color( 36, 123, 160, 255 )
+					"selectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/image(3).png" )
+					"contentAreaFilled": false
+					"borderPainted": true
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblFamilia"
+					"text": new FormMessage( null, "idioma.lblFamilia.text" )
+					"font": new java.awt.Font( "Comic Sans MS", 0, 24 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblAmigo"
+					"text": new FormMessage( null, "idioma.lblAmigo.text" )
+					"font": new java.awt.Font( "Comic Sans MS", 0, 24 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "btnAmigo"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/11325049(1).png" )
+					"background": new java.awt.Color( 36, 123, 160, 255 )
+					"selectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/image(4).png" )
+					"borderPainted": true
+					"contentAreaFilled": false
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "btnTrabajo"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/760621(1).png" )
+					"background": new java.awt.Color( 36, 123, 160, 255 )
+					"selectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/image(5).png" )
+					"contentAreaFilled": false
+					"borderPainted": true
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblTrabajo"
+					"text": new FormMessage( null, "idioma.lblTrabajo.text" )
+					"font": new java.awt.Font( "Comic Sans MS", 0, 24 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lblFavorito"
+					"text": new FormMessage( null, "idioma.lblFavorito.text" )
+					"font": #Font0
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "chkFavorito"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/cerca(2).png" )
+					"selectedIcon": new com.jformdesigner.model.SwingIcon( 0, "/estrellaa.png" )
+					"background": new java.awt.Color( 238, 238, 238, 0 )
+					"contentAreaFilled": false
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnGuardar"
+					"text": new FormMessage( null, "idioma.btnGuardar.text" )
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/disco-flexible(1).png" )
+					"font": new java.awt.Font( "Segoe UI Black", 2, 24 )
+					"background": new java.awt.Color( 36, 123, 160, 255 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"contentAreaFilled": false
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 400, 575 )
+			"location": new java.awt.Point( 0, 0 )
+		} )
+	}
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "nombre": "Carlos Mendoza",
+    "telefono": "0991234567",
+    "email": "carlos.mendoza@outlook.com",
+    "categoria": "Trabajo",
+    "favorito": false
+  },
+  {
+    "nombre": "Lucía Torres",
+    "telefono": "0976543210",
+    "email": "lucia.torres@gmail.com",
+    "categoria": "Familia",
+    "favorito": true
+  },
+  {
+    "nombre": "Diego Ramírez",
+    "telefono": "0985671234",
+    "email": "diego.ramirez@hotmail.com",
+    "categoria": "Amigo",
+    "favorito": false
+  },
+  {
+    "nombre": "Valentina Ruiz",
+    "telefono": "0998765432",
+    "email": "valentina.ruiz@gmail.com",
+    "categoria": "Trabajo",
+    "favorito": true
+  },
+  {
+    "nombre": "Sebastián López",
+    "telefono": "0961234567",
+    "email": "sebastian.lopez@outlook.com",
+    "categoria": "Familia",
+    "favorito": false
+  },
+  {
+    "nombre": "Camila Flores",
+    "telefono": "0972345678",
+    "email": "camila.flores@gmail.com",
+    "categoria": "Amigo",
+    "favorito": true
+  },
+  {
+    "nombre": "Andrés Castro",
+    "telefono": "0983456789",
+    "email": "andres.castro@hotmail.com",
+    "categoria": "Trabajo",
+    "favorito": false
+  },
+  {
+    "nombre": "Isabella Moreno",
+    "telefono": "0994567890",
+    "email": "isabella.moreno@gmail.com",
+    "categoria": "Familia",
+    "favorito": true
+  },
+  {
+    "nombre": "Mateo Vargas",
+    "telefono": "0965678901",
+    "email": "mateo.vargas@outlook.com",
+    "categoria": "Amigo",
+    "favorito": false
+  }
+]
